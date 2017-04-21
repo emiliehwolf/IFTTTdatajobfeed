@@ -4,11 +4,15 @@
 ## Date: April 20, 2017
 ##
 ## Place this script and datajobs.xlsx in same folder and
-## set the working directory to where they are located.
+## set the working directory to where they are located. 
 
+
+## Check for, install, and load necessary packages
+if (!require("lubridate")) {install.packages("lubridate")}
 library(lubridate)
+if (!require("xlsx")) {install.packages("xlsx")}
 library(xlsx)
-library(stringr)
+if (!require("tidyr")) {install.packages("tidyr")}
 library(tidyr)
 
 ## Read in Excel spreadsheet
