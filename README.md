@@ -1,8 +1,8 @@
 # IFTTTdatajobfeed
-Self-directed practice reading in .xlsx making it tidy
+This is self-directed practice for reading in an Excel spreadsheet and making it tidy.
 
-In 2015, I created an If This Then That (ifttt.com) recipe that appended a new line to a Google Spreadsheet every time there was a new job posting that matched keywords such as "data scientist," "software engineer," or "developer."
+In 2015, I created an If This Then That (ifttt.com) recipe that appended a new line to a Google Spreadsheet every time there was a new job posting that matched keywords such as "data scientist," "software engineer," or "developer" in the Austin, TX area.
 
-The spreadsheet it created has 2000 entries with only 3 columns. 
+The IFTTT recipe created a messy spreadsheet of 2000 entries and 3 columns that contain multiple variables 
 
-The R script in this repo is meant to clean and tidy the data so it's ready for exploratory analysis.
+The R script jobfeedclean.R is meant to split the columns and tidy the data so it's ready for exploratory analysis.
